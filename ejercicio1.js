@@ -2,7 +2,7 @@
 
 // Escribe una función llamada `numDuplicados` que reciba un string y retorne el número de caracteres que aparecen más de una vez.
 
-//Para desarrollar esta función se inicio con la logicá de crear un arreglo al que se le iban a ir quitando elementos para finalemente obtener un elemento por cada caracter que se repite más de una vez
+//Para desarrollar esta función se inicio con la lógica de crear un arreglo al que se le iban a ir quitando elementos para finalemente obtener un elemento por cada caracter que se repite más de una vez
 function numDuplicados(str){
     //Declaramos en una variable el arreglo de con cada uno de los caracteres que tiene el string
     let arr = str.split('')

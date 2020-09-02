@@ -2,7 +2,7 @@
 
 // Escribe una función llamada `frecuencias` que reciba una cadena de texto y retorne un objeto con el número de veces que aparece cada caracter (exceptuando el espacio en blanco)
 
-//Está función se desarrolla con la logica de crear un arreglo eliminando los espacios por cada uno de los caracteres del string, luego con el metodo forEach para recorrer vamos a crear un objeto literal que va a ir añadiendo llaves y valores por cada uno de los caracteres
+//Está función se desarrolla con la lógica de crear un arreglo eliminando los espacios por cada uno de los caracteres del string, luego con el metodo forEach para recorrer vamos a crear un objeto literal que va a ir añadiendo llaves y valores por cada uno de los caracteres
 function frecuencias(str){
     //Primero recibo el string y con el metodo replace elimino los espacios, luego con el metodo split convierto en un arreglo con cada caracter que tiene el string.
     let arr = str.replace(/ /g, '').split('')  

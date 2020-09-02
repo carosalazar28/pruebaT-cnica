@@ -2,7 +2,7 @@
 
 // Crea una función llamada `caracteresEnComun` que recibe dos argumentos: `str1` y `str2`. La función debe retornar un arreglo con todos los caracteres que las dos cadenas tienen en común.
 
-//La logicá para iniciar con esta función es crear un arreglo por cada uno de los string que se van a pasar y que cada elemento del array sea un caracter del string, luego comparamos estos elementos del arreglo
+//La lógica para iniciar con esta función es crear un arreglo por cada uno de los string que se van a pasar y que cada elemento del array sea un caracter del string, luego comparamos estos elementos del arreglo
 function caracteresEnComun(str1, str2){
     //Declaro en una variable un array con cada caracter de los string que voy a recibir.
     let arr1 = str1.split('') //Array 1
